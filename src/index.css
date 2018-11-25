@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: var(--white);
+  background-color: let(--white);
 }
 
 :root {
@@ -11,7 +11,7 @@ body {
   --primary-color-transparent: rgba(0, 107, 182, 0.2);
   --black: rgba(0, 0, 0, 1);
   --white: rgba(211, 211, 211, 1);
-  max-width: var(--max-width);
+  max-width: let(--max-width);
   margin: 0 auto;
 }
 
@@ -41,13 +41,13 @@ body {
 .navigation-item-link {
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--black);
+  color: let(--black);
   padding: 10px;
 }
 
 .navigation-item-link:hover {
-  color: var(--primary-color);
-  background-color: var(--primary-color-transparent);
+  color: let(--primary-color);
+  background-color: let(--primary-color-transparent);
   border-radius: 10px;
 }
 

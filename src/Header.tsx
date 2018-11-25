@@ -15,7 +15,7 @@ export const Header: React.StatelessComponent<{}> = () => {
             <Link to="/" className="navigation-item-link">App</Link>
           </li>
           <li>
-            <Link to="/games" className="navigation-item-link">Games</Link>
+            <Link to="/concerts" className="navigation-item-link">Concerts</Link>
           </li>
         </ul>
       </nav>

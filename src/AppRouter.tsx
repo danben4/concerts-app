@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { App } from './App';
-import { Games } from './Games';
 import { Header } from './Header';
 import './index.css';
+import { ConcertsPage } from './pages/concerts/ConcertsPage';
 
 class AppRouter extends React.Component {
   public render() {
@@ -13,7 +13,7 @@ class AppRouter extends React.Component {
           <Header />
           <Switch>
             <Route exact={true} path="/" component={App} />
-            <Route exact={true} path="/games" component={Games} />
+            <Route exact={true} path="/concerts" component={ConcertsPage} />
           </Switch>
         </div>
       </Router>
